@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Login Form</title>
+ <link rel="stylesheet" href="form.css">
+</head>
+<body>
+
+ <h2>Login Form</h2>
+<fieldset>
+ <form action="/submit_login" method="post">
+  
+  <div class="container">
+    <h2>Student Login</h2>
+    <form>
+       <div class="form-group">
+         <label for="name">Name:</label>
+         <input type="text" class="form-control" id="name">
+       </div>
+       <div class="form-group">
+         <label for="pwd">Password:</label>
+         <input type="password" class="form-control" id="pwd">
+       </div>
+       <div class="form-group">
+         <label for="subject">Subject:</label>
+         <input type="text" class="form-control" id="subject">
+       </div>
+       <div class="form-group">
+         <label for="gender">Gender:</label>
+         <select class="form-control" id="gender">
+           <option>Male</option>
+           <option>Female</option>
+           <option>Other</option>
+         </select>
+       </div>
+       <div class="form-group">
+         <label for="dob">Date of Birth:</label>
+         <input type="date" class="form-control" id="dob">
+       </div>
+       <div class="form-group">
+         <label for="email">Email:</label>
+         <input type="email" class="form-control" id="email">
+       </div>
+       <div class="form-group">
+         <label for="address">Address:</label>
+         <input type="text" class="form-control" id="address">
+       </div>
+       <div class="form-group">
+         <label for="father_name">Father's Name:</label>
+         <input type="text" class="form-control" id="father_name">
+       </div>
+       <div class="form-group">
+         <label for="mother_name">Mother's Name:</label>
+         <input type="text" class="form-control" id="mother_name">
+       </div>
+       <button type="submit" class="btn btn-primary">Login</button>
+    </form>
+   </div>
